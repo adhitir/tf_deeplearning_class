@@ -2,7 +2,7 @@
 
 This repository contains the code base for the CPSC8810: Deep Learning course homeworks. 
 
-# Authors
+### Authors
 
 Adhiti Raman
 Ph.D. Candidate
@@ -11,6 +11,8 @@ Clemson University
 Greenville, ICAR campus
 
 ## Folder Structre
+
+```
 
 Homework_1:
     Part_1:
@@ -24,9 +26,12 @@ Homework_1:
 	HW1_Part3_randomlabels.py
 	HW1_Part3_No_of_params_vs_generalization.py	
 	HW1_Part3_DNN_MNIST_flattness_vs_generatlization_part1.py
+
+```
+
 ### Code Breakdown
 
-# Part 1
+#### Part 1
 
 HW1_Part1_DNN_func.py
 
@@ -41,7 +46,7 @@ HW1_Part1_CNN_MNIST.py
 
 This code deploys 2 CNN and 1 DNN models on the MNIST dataset and plots loss and accuracy.
 
-#Part 2
+#### Part 2
 
 HW1_Part2_DNN_MNIST_PCA.py
 
@@ -55,7 +60,7 @@ HW1_Part2_DNN_MNIST_pnorm.py
 
 This code deploys a DNN on the MNIST dataset and plots the gradient norm and loss.
 
-# Part 3
+#### Part 3
 
 HW1_Part3_randomlabels.py
 
