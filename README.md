@@ -31,7 +31,7 @@ Homework_1:
 
 #### Part 1
 
-* HW1_Part1_DNN_func.py: This code deploys 3 DNN models on two functions. The code must be run for each function separately but commenting one out.
+* HW1_Part1_DNN_func.py: This code deploys 3 DNN models on two functions. The code must be run for each function separately by commenting one out.
 
 ```
 #y1 = np.cos(x1*x1) + x1 + np.random.normal(0, 0.1, size=x1.shape)
@@ -61,7 +61,7 @@ y1 = np.sin(2*x1) + x1 + np.random.normal(0, 0.1, size=x1.shape)
 
 ## Built With
 
-* Tensorflow 15.4
-* Jupyter Notebooks
+* Tensorflow 1.15
+*  JupyterHub - Python 3
 
 
