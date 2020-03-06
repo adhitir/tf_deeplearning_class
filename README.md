@@ -27,13 +27,11 @@ Homework_1:
 	HW1_Part3_DNN_MNIST_flattness_vs_generatlization_part1.py
 ```
 
-### Code Breakdown
+## Code Breakdown
 
 #### Part 1
 
-**HW1_Part1_DNN_func.py**
-
-This code deploys 3 DNN models on two functions. The code must be run for each function separately but commenting one out.
+* HW1_Part1_DNN_func.py: This code deploys 3 DNN models on two functions. The code must be run for each function separately but commenting one out.
 
 ```
 #y1 = np.cos(x1*x1) + x1 + np.random.normal(0, 0.1, size=x1.shape)
