@@ -26,6 +26,7 @@ Homework_1:
 	HW1_Part3_DNN_MNIST_randomlabels.py
 	HW1_Part3_No_of_params_vs_generalization.py	
 	HW1_Part3_DNN_MNIST_flattness_vs_generatlization_part1.py
+	HW1_Part3_DNN_MNIST_flattness_vs_generatlization_part2.py
 ```
 
 ## Code Breakdown
