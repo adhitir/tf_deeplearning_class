@@ -28,10 +28,13 @@ Homework_1:
 	HW1_Part3_DNN_MNIST_flattness_vs_generatlization_part1.py
 	HW1_Part3_DNN_MNIST_flattness_vs_generatlization_part2.py
 Homework_2:
-    \MLDS_HW2_1_data
     utilities.py
-    LSTM_final_attempt.ipynb
+    S2VT_final_model.ipynb
+    hw2_seq2seq.sh
+    hw2_seq2seq_test.py
+    output.txt
     LSTM_*
+   
 ```
 
 
@@ -80,11 +83,16 @@ y1 = np.sin(2*x1) + x1 + np.random.normal(0, 0.1, size=x1.shape)
 * hw2_seq2seq.sh: bash script to run the test file. usage:
 
 ```
-./hw2_seq2seq 'MLDS_hw2_1_data/testing_label.json' "MLDS_hw2_1_data/testing_data/feat/{}.npy" 'testset_output.txt'
+./hw2_seq2seq.sh 'MLDS_hw2_1_data/testing_label.json' "MLDS_hw2_1_data/testing_data/feat/{}.npy" 'testset_output.txt'
+```
+* output.txt: for calculating BLEU score. (best score: 0.551) Usage:
+
+```
+python3 MLDS_hw2_1_data/bleu_eval.py output.txt
 ```
 ## Built With
 
 * Tensorflow 1.15
-*  JupyterHub - Python 3
+* JupyterHub - Python 3
 
 
