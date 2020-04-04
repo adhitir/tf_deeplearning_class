@@ -73,9 +73,15 @@ y1 = np.sin(2*x1) + x1 + np.random.normal(0, 0.1, size=x1.shape)
 ### Homework 2
 * saved_model: in google drive: https://drive.google.com/drive/folders/1KuZdS08nLkAZ4Btv6aDyVjMfVRV41egG?usp=sharing
 
-* LSTM_final_attempt.ipynb: This file is a python notebook that contains a working implementation of the S2VT. I have included my failed attempts at building the multicell LSTM myself, but I couldnt't get them to run, so I borrowed the model from the AdrainHSu implementation (https://github.com/AdrianHsu/S2VT-seq2seq-video-captioning-attention). 
+* S2VT_final_model.ipynb: This file is a python notebook that contains a working implementation of the S2VT. (I have included my failed attempts at building the multicell LSTM myself, but I couldnt't get them to run, so I borrowed the model from the AdrainHSu implementation (https://github.com/AdrianHsu/S2VT-seq2seq-video-captioning-attention)). 
 
+* hw2_seq2seq_test.py: Python code that runs the test
 
+* hw2_seq2seq.sh: bash script to run the test file. usage:
+
+```
+./hw2_seq2seq 'MLDS_hw2_1_data/testing_label.json' "MLDS_hw2_1_data/testing_data/feat/{}.npy" 'testset_output.txt'
+```
 ## Built With
 
 * Tensorflow 1.15
