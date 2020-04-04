@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+#testing_label = $1
+#test_feat_filepath = $2
+#output_filename = $3
+
+python hw2_seq2seq_test.py -l $1 -t $2 -o $3
+
