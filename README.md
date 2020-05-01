@@ -15,18 +15,18 @@ Greenville, ICAR campus
 ```
 Homework_1:
     \Part_1:
-	HW1_Part1_DNN_func.py
-	HW1_Part1_CNN_MNIST.py
+        HW1_Part1_DNN_func.py
+        HW1_Part1_CNN_MNIST.py
     \Part2:
-	HW1_Part2_DNN_MNIST_PCA.py
-	HW1_Part2_DNN_func_pnorm.py
-	HW1_Part2_DNN_MNIST_pnorm.py
-	HW1_Part2_DNN_func_gradientzero.py
+        HW1_Part2_DNN_MNIST_PCA.py
+        HW1_Part2_DNN_func_pnorm.py
+        HW1_Part2_DNN_MNIST_pnorm.py
+        HW1_Part2_DNN_func_gradientzero.py
     \Part3:
-	HW1_Part3_DNN_MNIST_randomlabels.py
-	HW1_Part3_No_of_params_vs_generalization.py	
-	HW1_Part3_DNN_MNIST_flattness_vs_generatlization_part1.py
-	HW1_Part3_DNN_MNIST_flattness_vs_generatlization_part2.py
+        HW1_Part3_DNN_MNIST_randomlabels.py
+        HW1_Part3_No_of_params_vs_generalization.py	
+        HW1_Part3_DNN_MNIST_flattness_vs_generatlization_part1.py
+        HW1_Part3_DNN_MNIST_flattness_vs_generatlization_part2.py
 Homework_2:
     utilities.py
     S2VT_final_model.ipynb
@@ -34,7 +34,14 @@ Homework_2:
     hw2_seq2seq_test.py
     output.txt
     LSTM_*
-   
+Homework_3:
+    DCGAN_final.py
+    WGAN_final.py
+    DCGAN_final-differentmodel.py
+    FID_IS_score_final.py
+    \dcgan_final_pics
+    \dcgan_final_pics_diffmodel1
+    \wgan_final_pics   
 ```
 
 
@@ -90,6 +97,14 @@ y1 = np.sin(2*x1) + x1 + np.random.normal(0, 0.1, size=x1.shape)
 ```
 python3 MLDS_hw2_1_data/bleu_eval.py output.txt
 ```
+### Homework 3
+
+- DCGAN_final.py: The DCGAN model 
+- WGAN_final.py: This code contains the WGAN model
+- DCGAN_final-differentmodel.py: Thr DCGAN model without batch normalization and different hyper-parameters.
+- FID_IS_score_final.py: This code calculates the FID and IS score. To select between WGAN and DCGAN uncomment the correct image path in the code. 
+  
+
 ## Built With
 
 * Tensorflow 1.15
